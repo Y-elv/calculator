@@ -1,14 +1,30 @@
+body{
+    background-color: rgba(236, 234, 231, 0.342);
+}
 section{
-   
+   margin: 250px 350px;
     width: 40%;
     height: 32%;
     color: black;
-    background-color: rgba(231, 223, 215, 0.438);
-    border-radius: 0px 0px 60px 0px;
+    background-color:white;
+    border-radius: 10px 10px 90px 10px;
 }
 .damn{
     color:#5907f0;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    
+
+    transition-property: opacity, transform;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    text-align: start;
+    opacity: 1;
+    font-family:"poppins",monospace;
+    line-height: initial;
+    
 }
 .calc {
     display: flex;
@@ -21,10 +37,11 @@ section{
     
         height: 60px;
         width: 60px;
-        background-color: #5907f0;
+       background-color:#5907f0 ;
         border-radius: 50%;
         display: inline-block;
         float: right;
+        border-color: aliceblue;
       
 }
 .last{
@@ -33,7 +50,17 @@ section{
 }
 #hidden{
     display: none;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    transition-property: opacity, transform;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    font-optical-sizing: auto;
+    text-align: start;
+    opacity: 1;
+    font-family:"poppins",monospace;
+    line-height: initial;
 }
 #btn i{
     height:100%;
@@ -42,13 +69,23 @@ section{
     justify-content: center;
 }
 
-
+hr {
+    opacity: 0.4;
+}
 input[type=text] {
+    padding-top: 0%;
     width: 50%;
-    height: 50%;
-    border-radius: 6px;
-    border-color: aliceblue;
-    box-shadow: white;
+    opacity: 1.7;
+    font-size: medium;
+    height: 50px;
+    font-weight: 400;
+    font-weight: bolder;
+    border-radius: 4px;
+    border-width: 0.1px;
+    border-color: rgb(241, 244, 247);
+box-sizing: border-box;
+    color: black;
+  
    
     
     box-sizing: border-box;
@@ -60,3 +97,16 @@ input[type=text] {
   .container{
     margin: 20px;
   }
+  .text{
+    padding-bottom: 30px;
+    
+   
+  }
+  .text p{
+    color: black;
+    opacity: 0.7;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  
+  

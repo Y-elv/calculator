@@ -9,7 +9,8 @@ const form = document.getElementById("myform");
 form.addEventListener("submit", (event) => {
   event.preventDefault(); // Prevent default form submission behavior
 document.getElementById("hidden").style.display="block"
-  // Get current date
+
+// Get current date
   const currentDate = new Date();
   const currentDay = currentDate.getDate();
   const currentMonth = 1 + currentDate.getMonth();
@@ -56,6 +57,7 @@ document.getElementById("hidden").style.display="block"
   const resultd = dayDiff;
   document.getElementById("td").innerHTML = resultd ;
   // Clear form input fields
+  
   form.reset();
 });
 
